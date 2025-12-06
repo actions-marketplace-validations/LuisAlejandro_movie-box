@@ -13,7 +13,7 @@ jobs:
     if: github.repository == 'LuisAlejandro/movie-box'
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Restoring node_modules cache
         uses: actions/cache@v4
         with:
